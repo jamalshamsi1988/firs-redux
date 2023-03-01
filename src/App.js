@@ -1,6 +1,7 @@
 import { Provider } from 'react-redux';
 import './App.css';
 import Counter from './components/Counter';
+import Number from './components/Number';
 import store from './redux/store';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Provider store={store} >
         <div className="App">
         <Counter/>
+        <Number />
         </div>
     </Provider>
   );
